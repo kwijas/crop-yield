@@ -1,0 +1,11 @@
+---
+title: "crop-yield-pca"
+format: html
+editor: visual
+---
+
+```{r}
+library(readr)
+crop_yield <- read_csv("crop_yield.csv")
+View(crop_yield)
+```
